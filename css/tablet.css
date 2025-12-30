@@ -1,0 +1,128 @@
+/* Estilos para tablets y desktop */
+
+@media (min-width: 768px) {
+    /* Tablas */
+    .main-tables-container {
+        padding: 0 60px;
+    }
+
+    .tables-navigation-wrapper {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .tables-wrapper {
+        gap: 40px;
+        overflow-x: visible;
+        max-width: none;
+        justify-content: center;
+    }
+
+    .main-currency-table, .main-comission-table {
+        width: auto;
+        flex-shrink: 0;
+    }
+
+    .table-nav-btn {
+        display: none;
+    }
+
+    /* Product Cards */
+    .product-cards--container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 768px;
+        margin: 0 auto;
+        gap: 16px;
+    }
+
+    .product-detail--card {
+        max-width: 350px;
+        flex: 1 1 calc(50% - 16px);
+    }
+
+    /* Plans */
+    .plans-container--slider {
+        max-width: 1000px;
+        padding: 50px 60px 0;
+        margin: auto;
+    }
+
+    .plans-navigation-wrapper {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .plans-wrapper {
+        gap: 24px;
+        overflow-x: visible;
+        max-width: none;
+        justify-content: center;
+    }
+
+    .plans-container--card {
+        width: auto;
+        flex-shrink: 0;
+    }
+
+    .plan-nav-btn {
+        display: none;
+    }
+
+    /* Footer */
+    footer {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        gap: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Header */
+    .header--title-container h1 {
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+
+    .header--title-container p {
+        font-size: 1.6rem;
+    }
+
+    /* Exchange container */
+    .main-exchange-container-title h2 {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    .main-exchange-container-title p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    /* Product cards - 2 columns */
+    .product-cards--container {
+        max-width: 900px;
+    }
+
+    /* Bitcoin section */
+    .bitcoin-img-containet h2 {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    /* Plans */
+    .plans--title h2 {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    .plans--title p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+}
